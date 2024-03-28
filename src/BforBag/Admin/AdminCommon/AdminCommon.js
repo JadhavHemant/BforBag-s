@@ -5,7 +5,7 @@ const UserCommon = () => {
     const [toggleMenu, setToggleMenu] = useState(false);
     return (
         <>
-            <div className="sticky top-0 backdrop-blur-sm">
+            <div className="sticky top-0 backdrop-blur-sm h-[20px]">
                 <nav>
                     <div className="mx-auto max-w-7xl ">
                         <div className="flex justify-between mx-auto w-5/5 ">
