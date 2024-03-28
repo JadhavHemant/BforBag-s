@@ -23,9 +23,10 @@ const UserCommon = () => {
                                     <div className="items-center hidden gap-2 lg:flex">
                                     </div>
                                     <div>
+                                        
                                     </div>
                                 </div>
-                                <div className="flex items-center p-4 lg:hidden">
+                                <div className="flex items-center lg:hidden">
                                     <button onClick={() => setToggleMenu(!toggleMenu)}>
                                         <Bars3Icon className="h-6" />
                                     </button>
@@ -34,10 +35,10 @@ const UserCommon = () => {
                         </div>
                     </div>
                     <div
-                        className={`fixed z-40 w-full  backdrop-blur-sm  overflow-hidden flex flex-col lg:hidden gap-12  origin-top duration-700 ${!toggleMenu ? "h-0" : "h-full"
+                        className={`fixed z-40 w-full  backdrop-blur-sm  overflow-auto flex flex-col lg:hidden gap-12  origin-top duration-700 ${!toggleMenu ? "h-0" : "h-auto"
                             }`}>
-                        <div className="px-8  backdrop-blur-sm">
-                            <div className="flex flex-col gap-8 font-bold tracking-wider ">
+                        <div className="px-8">
+                            <div className="flex flex-col gap-8 font-bold tracking-wider">
                                 <Link to="">Home</Link>
                                 <Link to="">About</Link>
                                 <Link to="">Product</Link>
